@@ -1,14 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio-react-tailwind/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tailwind-react-proyect</title>
-    <script type="module" crossorigin src="/portfolio-react-tailwind/assets/index-dw7RQ0Iw.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio-react-tailwind/assets/index-CM05YZ_t.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex | Portfolio</title>
+
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo">Alex Dev</h2>
+
+            <ul class="navbar-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Hero -->
+        <section class="hero" id="inicio">
+            <div class="hero__content">
+                <span>Front-End</span>
+                <h1 class="hero__title animate-up">Hola, soy Alex</h1>
+                <p class="hero__desc animate-right delay-1">Desarollador Front-End en formación.</p>
+                <a class="btn animate-up delay-2" href="#proyectos">Ver Proyectos</a>
+            </div>
+        </section>
+
+        <!-- Sobre mi -->
+        <section class="about" id="sobre-mi">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2>Sobre mí</h2>
+                    <p>
+                       Soy desarrollador Front-End en formación, enfocado en crear interfaces modernas, limpias y funcionales.
+
+                        Actualmente trabajo con HTML, CSS y JavaScript, desarrollando proyectos prácticos como este portafolio y una interfaz inspirada en Plants vs Zombies.
+
+                        Me interesa seguir mejorando mis habilidades, aprender nuevas tecnologías y convertirme en desarrollador profesional.
+
+                    <p>
+                        Me gusta crear interfaces visuales, aprender nuevas tecnologías y mejorar
+                        constantemente mis habilidades como desarrollador.
+                    </p>
+                </div>
+
+                <div class="about__image">
+                    <img src="assets/img/perfil.png" alt="Foto de perfil">
+                </div>
+                
+            </div>
+
+            <div class="about__skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Java</span>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="projects" id="proyectos">
+
+            <h2 class="projects__title">Mis Proyectos</h2>
+
+            <div class="projects__container">
+                <div class="card fade-in">
+                    <img src="assets/projects/Proyect-1.png" alt="Proyecto 1">
+                    <h3>
+                        Landing Page <br> Plantas Vs Zombies: Reborn
+                    </h3>
+                    <p>
+                        Creación de un lading page de uno de mis juegos favoritos.
+                    </p>
+                    <div class="projects__buttons">
+                        <a href="#" target="_blank">Ver Más</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card fade-in">
+                    <img src="assets/projects/Proyecto-2.png" alt="Proyecto 2">
+                    <h3>
+                        Lading Page <br> Inmobiliaria Reshark
+                    </h3>
+                    <p>
+                        Landing Page como practica para un negocio. (Non-Official)
+                    </p>
+                    <div class="projects__buttons">
+                        <a href="#" target="_blank">Ver Más</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <img src="assets/projects/Proyect1.png" alt="Proyecto 3">
+                    <h3>
+                        Landing Page Moderna
+                    </h3>
+                    <p>
+                        Creación de paginas modernas.
+                    </p>
+                    <div class="projects__buttons">
+                        <a href="#" target="_blank">Ver Más</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="footer__container">
+
+            <h2>Alex Dev</h2>
+
+            <p>Desarrollador Front-End en formación</p>
+
+            <div class="footer__social">
+                <a href="https://github.com/aleexx-ma" target="_blank">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="mailto:venturamontroyjulio@gmail.com?subject=Trabajo&body=Hola, estoy interesado">Correo</a>
+            </div>
+
+            <p class="footer__copy">© 2026 Alex — Todos los derechos reservados</p>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
